@@ -18,7 +18,6 @@
 </div>
 
 <!-- Animated Neon Line -->
-<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/neon.png">
 
 ## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="35"> **Professional Overview**
 
@@ -131,17 +130,6 @@ Designing and deploying robust cloud infrastructure with emphasis on scalability
   
   [![GitHub](https://img.shields.io/badge/GitHub-Follow-%23181717.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/John-Tenkorang-Anim)
 
-  
-</div>
-
-<!-- Professional Quote -->
-## 💭 **Philosophy**
-
-<div align="center">
-  
-  > *"Learn, grow and build like it all depends on you, pray like it all depends on God."*
-  
-  [![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=The%20best%20way%20to%20predict%20the%20future%20is%20to%20build%20it.&author=John%20Tenkorang-Anim)](https://github.com/piyushsuthar/github-readme-quotes)
   
 </div>
 
