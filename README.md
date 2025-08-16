@@ -125,9 +125,7 @@ Designing and deploying robust cloud infrastructure with emphasis on scalability
   <p>Open to discussing innovative projects, technical challenges, and collaboration opportunities</p>
   
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect_Now-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/john-anim)
-  [![Portfolio](https://img.shields.io/badge/Portfolio-View_Work-%2300FF88.svg?style=for-the-badge&logo=firefox&logoColor=white)](https://johntenkorang.dev)
   [![Email](https://img.shields.io/badge/Email-Contact_Me-%23FF0080.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ja857@cornell.edu)
-  
   [![GitHub](https://img.shields.io/badge/GitHub-Follow-%23181717.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/John-Tenkorang-Anim)
 
   
