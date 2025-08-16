@@ -1,4 +1,4 @@
-# ![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=280&section=header&text=John%20Tenkorang%20Anim&fontSize=80&fontAlignY=35&desc=Full%20Stack%20Developer%20|%20AI/ML%20Engineer%20|%20System%20Architect&descAlignY=55&animation=fadeIn)
+# ![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=240&section=header&text=John%20Tenkorang%20Anim&fontSize=80&fontAlignY=35&desc=Full%20Stack%20Developer%20|%20AI/ML%20Engineer%20|%20System%20Architect&descAlignY=55&animation=fadeIn)
 
 <div align="center">
   
