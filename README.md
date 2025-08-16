@@ -77,23 +77,6 @@ Designing and deploying robust cloud infrastructure with emphasis on scalability
 
 </div>
 
-<!-- GitHub Analytics with Neon Theme -->
-## 📊 **Performance Analytics**
-
-<div align="center">
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=John-Tenkorang-Anim&show_icons=true&count_private=true&hide_border=true&title_color=00FF88&icon_color=FF0080&text_color=c9d1d9&bg_color=0d1117&border_radius=10" alt="GitHub Stats" />
-  
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=John-Tenkorang-Anim&layout=compact&hide_border=true&title_color=00FF88&text_color=c9d1d9&bg_color=0d1117&langs_count=8&border_radius=10" alt="Top Languages" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=John-Tenkorang-Anim&theme=dark&hide_border=true&stroke=0000&background=0D1117&ring=00FF88&fire=FF0080&currStreakLabel=00FF88&border_radius=10" alt="GitHub Streak" />
-</div>
-
-<!-- Activity Graph -->
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=John-Tenkorang-Anim&custom_title=Development%20Activity%20Graph&bg_color=0d1117&color=00FF88&line=FF0080&point=FFD700&area_color=00FF88&title_color=ffffff&area=true&hide_border=true" alt="Activity Graph" />
-</div>
 
 <!-- Featured Projects Section -->
 ## 🚀 **Featured Projects**
@@ -142,12 +125,12 @@ Designing and deploying robust cloud infrastructure with emphasis on scalability
   
   <p>Open to discussing innovative projects, technical challenges, and collaboration opportunities</p>
   
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect_Now-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/john-tenkorang-anim)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect_Now-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/john-anim)
   [![Portfolio](https://img.shields.io/badge/Portfolio-View_Work-%2300FF88.svg?style=for-the-badge&logo=firefox&logoColor=white)](https://johntenkorang.dev)
-  [![Email](https://img.shields.io/badge/Email-Contact_Me-%23FF0080.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:john.tenkorang@example.com)
+  [![Email](https://img.shields.io/badge/Email-Contact_Me-%23FF0080.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ja857@cornell.edu)
   
   [![GitHub](https://img.shields.io/badge/GitHub-Follow-%23181717.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/John-Tenkorang-Anim)
-  [![Dev.to](https://img.shields.io/badge/dev.to-Follow-%230A0A0A.svg?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/johntenkorang)
+
   
 </div>
 
@@ -156,7 +139,7 @@ Designing and deploying robust cloud infrastructure with emphasis on scalability
 
 <div align="center">
   
-  > *"In the intersection of full-stack development and artificial intelligence lies the future of digital innovation."*
+  > *"Learn, grow and build like it all depends on you, pray like it all depends on God."*
   
   [![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=The%20best%20way%20to%20predict%20the%20future%20is%20to%20build%20it.&author=John%20Tenkorang-Anim)](https://github.com/piyushsuthar/github-readme-quotes)
   
