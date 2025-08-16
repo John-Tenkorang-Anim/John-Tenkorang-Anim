@@ -49,29 +49,29 @@ Designing and deploying robust cloud infrastructure with emphasis on scalability
 
 </div>
 
-<!-- Tech Stack Section with Neon Theme -->
-## ⚡ **Technology Arsenal**
+
+##  **Technology Arsenal**
 
 <div align="center">
 
 ### 💻 **Programming & Frameworks**
 <p>
-  <img src="https://skillicons.dev/icons?i=js,ts,python,java,react,nextjs,nodejs,express,django,spring&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=js,ts,python,java,react,nextjs,nodejs,express,django,spring&theme=dark" />
 </p>
 
 ### 🤖 **AI/ML & Data Science**
 <p>
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,sklearn,numpy,pandas,jupyter,anaconda&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,sklearn,anaconda&theme=dark" />
 </p>
 
 ### 🗄️ **Databases & Infrastructure**
 <p>
-  <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis,firebase,aws,docker,kubernetes&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis,firebase,aws,docker,kubernetes&theme=dark" />
 </p>
 
 ### 🛠️ **Development Tools**
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,linux,bash,vim,figma,tailwind,sass&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,linux,bash,vim,figma,tailwind,sass&theme=dark" />
 </p>
 
 </div>
