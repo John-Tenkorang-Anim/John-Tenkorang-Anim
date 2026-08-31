@@ -1,7 +1,7 @@
 <h1 align="center">John Tenkorang Anim</h1>
 
 <p align="center">
-  <b>Distributed systems for AI infrastructure</b><br>
+  <b>AI/ML engineering — training pipelines, agent systems, and the infrastructure that serves them</b><br>
   Information Science @ Cornell · SWE Intern @ Microsoft CoreAI
 </p>
 
@@ -15,11 +15,11 @@
 
 ## About
 
-I work on the distributed infrastructure that AI systems run on — schedulers, consensus-backed state, serving layers, and the failure modes that show up when any of it degrades. When a system is slow, I want to know exactly which hop, queue, or replica is responsible, and I build the tooling that answers that.
+I build machine learning systems end to end — data pipelines, model training, retrieval, agent loops — and the serving infrastructure underneath them. My interest sits where the two meet: a model is only as good as the system that runs it, and when that system is slow or wrong I want to know exactly which stage is responsible. I learn by implementing things from scratch first, then reaching for the production library.
 
 - **Now** — SWE intern at Microsoft CoreAI, working on evaluation and regression tooling for LLM agent systems.
-- **Building** — a fault-tolerant distributed task runtime in Rust (Raft, lease-based coordination, a chaos harness for testing partition behavior).
-- **Interested in** — consensus protocols, scheduler design, observability for nondeterministic systems, and making this class of infrastructure practical in African institutional contexts.
+- **Building** — three systems that give sequence models and reinforcement learning real jobs rather than decorative ones. Each one has to beat a simple baseline or the result gets published anyway.
+- **Interested in** — inference efficiency (KV caching, batching, quantization), retrieval and agent architectures, evaluation of nondeterministic systems, and making this class of infrastructure practical in African institutional contexts.
 
 ## Tech
 
@@ -29,7 +29,23 @@ I work on the distributed infrastructure that AI systems run on — schedulers, 
 | **Systems** | ![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=flat-square&logo=grpc&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) · Raft & quorum consensus |
 | **Data & ML** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Postgres](https://img.shields.io/badge/Postgres-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) |
 
-## Projects
+## In progress
+
+Each of these ships with named baselines, ablations, and a hosted simulation you can run yourself.
+
+### ModelMesh &nbsp;— adaptive inference gateway
+
+Routes requests across models with different quality, latency, and cost profiles. A GRU forecasts short-term load and latency; a routing policy learns from that forecast, benchmarked against round robin, least-latency, rule-based, and contextual-bandit baselines. Tested against four Docker workers with injected crashes, rate limits, and traffic spikes.
+
+### DriftGuard &nbsp;— temporal monitoring and diagnosis for ML systems
+
+An LSTM sequence autoencoder scores whole windows of production behavior instead of individual thresholds, catching degradation that no single metric flags. A budgeted agent then chooses which diagnostic to run next. Compared against PSI/KS tests, Isolation Forest, and a fixed diagnostic checklist. No remediation without human approval.
+
+### CivicFlow &nbsp;— forecasting and dispatch for public services
+
+Forecasts non-emergency service demand by region and category on NYC 311 data, then allocates limited crews in a Gymnasium simulation. Reward includes a regional fairness penalty, so the policy can't improve averages by neglecting a neighborhood. Benchmarked against nearest-crew dispatch and an integer-programming solution on small cases.
+
+## Shipped
 
 ### [Pulse](https://github.com/John-Tenkorang-Anim/Pulse)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
@@ -50,9 +66,3 @@ ResNet-18 pneumonia classifier with Grad-CAM overlays, so every prediction ships
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 
 Code analysis service over GPT-4: documentation generation, refactor suggestions, test scaffolding, and complexity analysis behind one API.
-
----
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=John-Tenkorang-Anim&show_icons=true&hide_border=true&hide_title=true&theme=transparent&hide=issues" alt="GitHub stats" />
-</div>
