@@ -46,6 +46,11 @@ An LSTM sequence autoencoder scores whole windows of production behavior instead
 Forecasts non-emergency service demand by region and category on NYC 311 data, then allocates limited crews in a Gymnasium simulation. Reward includes a regional fairness penalty, so the policy can't improve averages by neglecting a neighborhood. Benchmarked against nearest-crew dispatch and an integer-programming solution on small cases.
 
 ## Shipped
+### [PharmaBoard](https://github.com/John-Tenkorang-Anim/pharmaboard)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Postgres](https://img.shields.io/badge/Postgres-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+
+Trusted communications platform for Ghana's pharmacy profession. A published notice's audience is frozen in a single transaction and never silently edited — the one guarantee the whole modular Go backend exists to protect. Verified identity, a two-person approval workflow, and an RxForum with Reddit-style communities. Deployed on Render + Vercel.
+
 
 ### [Pulse](https://github.com/John-Tenkorang-Anim/Pulse)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
