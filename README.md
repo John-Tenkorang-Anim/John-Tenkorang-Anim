@@ -30,20 +30,9 @@ I build machine learning systems end to end — data pipelines, model training, 
 | **Data & ML** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Postgres](https://img.shields.io/badge/Postgres-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) |
 
 ## In progress
+SceneSeek is an AI-powered video search engine that enables users to find specific scenes and moments in videos using natural language. Instead of relying on titles, hashtags, or manually assigned metadata, SceneSeek combines computer vision, speech recognition, and semantic search to understand video content and retrieve relevant moments based on a user's description.
 
-Each of these ships with named baselines, ablations, and a hosted simulation you can run yourself.
-
-### ModelMesh &nbsp;— adaptive inference gateway
-
-Routes requests across models with different quality, latency, and cost profiles. A GRU forecasts short-term load and latency; a routing policy learns from that forecast, benchmarked against round robin, least-latency, rule-based, and contextual-bandit baselines. Tested against four Docker workers with injected crashes, rate limits, and traffic spikes.
-
-### DriftGuard &nbsp;— temporal monitoring and diagnosis for ML systems
-
-An LSTM sequence autoencoder scores whole windows of production behavior instead of individual thresholds, catching degradation that no single metric flags. A budgeted agent then chooses which diagnostic to run next. Compared against PSI/KS tests, Isolation Forest, and a fixed diagnostic checklist. No remediation without human approval.
-
-### CivicFlow &nbsp;— forecasting and dispatch for public services
-
-Forecasts non-emergency service demand by region and category on NYC 311 data, then allocates limited crews in a Gymnasium simulation. Reward includes a regional fairness penalty, so the policy can't improve averages by neglecting a neighborhood. Benchmarked against nearest-crew dispatch and an integer-programming solution on small cases.
+The project explores multimodal AI, vector search, and scalable backend systems to build an intelligent, efficient, and intuitive video discovery experience.
 
 ## Shipped
 ### [PharmaBoard](https://github.com/John-Tenkorang-Anim/pharmaboard)
