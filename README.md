@@ -17,7 +17,7 @@
 
 I build machine learning systems end to end — data pipelines, model training, retrieval, agent loops — and the serving infrastructure underneath them. My interest sits where the two meet: a model is only as good as the system that runs it, and when that system is slow or wrong I want to know exactly which stage is responsible. I learn by implementing things from scratch first, then reaching for the production library.
 
-- **Now** — SWE intern at Microsoft CoreAI, working on evaluation and regression tooling for LLM agent systems.
+- **Prev** — SWE intern at Microsoft CoreAI, working on evaluation and regression tooling for LLM agent systems.
 - **Building** — three systems that give sequence models and reinforcement learning real jobs rather than decorative ones. Each one has to beat a simple baseline or the result gets published anyway.
 - **Interested in** — inference efficiency (KV caching, batching, quantization), retrieval and agent architectures, evaluation of nondeterministic systems, and making this class of infrastructure practical in African institutional contexts.
 
